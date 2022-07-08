@@ -1,0 +1,58 @@
+*{
+    background-size: 40px 40px;
+    width: 1000px;
+    text-align: center;
+    padding: 10px
+}
+body{
+    vertical-align: center;
+    margin: auto;
+    background-color: whitesmoke;
+    border-top: 5px solid black;
+}
+.section{
+    margin:10px 0px;
+    display:flex;
+    justify-content: center;
+    opacity: 80%
+}
+#maroon{
+    background-color: palevioletred;
+}
+#yellow{
+    background-color: moccasin;
+}
+#green{
+    background-color: darkseagreen;
+}
+.bg-grid{
+    background:
+    linear-gradient(-90deg, rgba(0,0,0,.05) 1px, transparent 1px),
+    linear-gradient(rgba(0,0,0,.05) 1px, transparent 1px), 
+    linear-gradient(-90deg, rgba(0, 0, 0, .04) 1px, transparent 1px),
+    linear-gradient(rgba(0,0,0,.04) 1px, transparent 1px),
+    linear-gradient(transparent 3px, #f2f2f2 3px, #f2f2f2 78px, transparent 78px),
+    /* linear-gradient(-90deg, #aaa 1px, transparent 1px), */
+    linear-gradient(-90deg, transparent 3px, #f2f2f2 3px, #f2f2f2 78px, transparent 78px),
+    /* linear-gradient(#aaa 1px, transparent 1px), */
+    #f2f2f2;
+    background-size:
+        4px 4px,
+        4px 4px,
+        80px 80px,
+        80px 80px,
+        80px 80px,
+        80px 80px,
+        80px 80px,
+        80px 80px;
+}
+
+img{
+    width:200px;
+    height: 200px;
+    margin:10px 30px;
+}
+
+
+
+/* Use margin and padding to adjust the spaces between the rows and use flexbox properties to be able to put each image in its proper place. Set the images to all have a uniform size. */
